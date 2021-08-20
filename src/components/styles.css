@@ -1,0 +1,43 @@
+/* * {
+    background-image: linear-gradient(135deg, rgb(56, 128, 56), white,  #f3740c);
+} */
+section {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(135deg, rgb(56, 128, 56), white,  #f3740c);
+    /* align-items: center; */
+    /* justify-content: center; */
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(135deg,#f3740c, white, rgb(56, 128, 56));
+    border: 2px solid rgb(4, 17, 14);
+}
+section ul {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image:linear-gradient(135deg, #f3740c, white, rgb(56, 128, 56));
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(17, 17, 59);
+    border: 2px solid rgb(17, 17, 49);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
